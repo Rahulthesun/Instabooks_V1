@@ -1,0 +1,32 @@
+#COMMANDS TO PUSH CODE TO REPO (Same Order)
+
+#install git in your computer first
+
+git init 
+
+git add .
+
+git commit -m "Message"
+
+git remote add origin <repo link>
+
+git push -u origin master
+
+
+
+
+#UPDATE GITHUB REPO AFTER CHANGES 
+
+git status #to check the status of repo
+
+git add .
+
+git commit -m "Update description"
+
+git push origin master
+
+
+
+#TO UNSTAGE STAGED FILE
+
+git restore --staged <file>...
